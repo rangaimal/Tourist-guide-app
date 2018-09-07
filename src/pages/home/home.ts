@@ -13,17 +13,17 @@ export class HomePage {
 slider=[
 {
   title:'welcome to trip',
-  description:'Ionic is buili on top of',
-  image:"assests/imgs/7402987_orig.jpeg"
+  description:'Ionic is built on top of',
+  image:"assets/imgs/1.jpeg"
 },
-{title:'welcome to hotels',
-description:'Ionic is buili on top besta',
-image:"assests/imgs/7402987_orig.jpeg"
+{title:'welcome to vehicle',
+description:'Ionic is built on top of',
+image:"assets/imgs/3.jpeg"
 },
 {
   title:'welcome to restaurants',
-description:'Ionic is buili on top of',
-image:"assests/imgs/7402987_orig.jpeg"
+description:'Ionic is built on top of',
+image:"assets/imgs/2.jpeg"
 
 
 }
