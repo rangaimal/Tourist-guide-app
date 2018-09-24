@@ -15,6 +15,8 @@ import { AngularFireModule } from 'angularfire2';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import{GoogleMapComponent}from'../components/google-map/google-map';
+
 const firebaseAuth={
   apiKey: "AIzaSyDBTmTcZ9UP84Bc2aJvPj6XMPx0GLEthXU",
   authDomain: "tourism-fc983.firebaseapp.com",
@@ -33,7 +35,8 @@ const firebaseAuth={
     TabsPage,
     GuidePage,
     HotelsPage,
-    TripPage
+    TripPage,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,
