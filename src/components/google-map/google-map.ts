@@ -1,5 +1,7 @@
 import { Component,ViewChild} from '@angular/core';
 
+declare var google;
+  
 
 @Component({
   selector: 'google-map',
