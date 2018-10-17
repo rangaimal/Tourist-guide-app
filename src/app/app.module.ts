@@ -14,8 +14,11 @@ import { AngularFireModule } from 'angularfire2';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+//import { Geolocation } from '@ionic-native/geolocation';
+import { Geolocation} from '@ionic-native/geolocation';
 
-import{GoogleMapComponent}from'../components/google-map/google-map';
+import {GoogleMapComponent} from '../components/google-map/google-map';
+//import { from } from '../../node_modules/rxjs/observable/from';
 
 const firebaseAuth={
   apiKey: "AIzaSyDBTmTcZ9UP84Bc2aJvPj6XMPx0GLEthXU",
@@ -36,7 +39,8 @@ const firebaseAuth={
     GuidePage,
     HotelsPage,
     TripPage,
-    GoogleMapComponent
+   GoogleMapComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -53,10 +57,12 @@ const firebaseAuth={
     GuidePage,
     HotelsPage,
     TripPage
+    
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
