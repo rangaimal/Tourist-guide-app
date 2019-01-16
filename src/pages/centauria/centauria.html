@@ -1,0 +1,113 @@
+<!--
+  Generated template for the CentauriaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>centauria hill resort</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+
+
+
+  <ion-content class="no-scroll" padding>
+ 
+
+    <ion-slides pager autoplay="0" loop="true" speed="2000" id="slide">
+       
+      <ion-slide >
+        <img src="../assets/imgs/66.jpg">
+      </ion-slide>
+      <ion-slide >
+        <img src="../../assets/imgs/67.jpg">
+      </ion-slide>
+      <ion-slide >
+        <img src="../../assets/imgs/68.jpg">
+      </ion-slide>
+      <ion-slide >
+        <img src="../assets/imgs/69.jpg">
+      </ion-slide>
+      <ion-slide >
+        <img src="../../assets/imgs/70.jpg">
+      </ion-slide>
+      <ion-slide >
+        <img src="../../assets/imgs/71.jpg">
+      </ion-slide>
+      
+    </ion-slides>
+    <ion-card-content>
+      <div class="row">
+        <div class="col">
+          <p><ion-icon name="person"></ion-icon> &nbsp;5&nbsp; A/C rooms</p> 
+          <p><ion-icon name="person"></ion-icon> &nbsp;10&nbsp; Non A/C rooms</p> 
+           <p><ion-icon name="ios-call"></ion-icon> 0453457863 </p>
+          
+        </div>
+        </div>
+        </ion-card-content>
+  
+    <ion-card id="card">
+      <ion-card-content   *ngFor="let hotel of hotels | async"   style="color: #ffffff;">
+        
+         <ion-row>
+            <ion-col><ion-icon name="call" style="font-size:20px;color: #3d3d3d;background:#73AD21;"></ion-icon> {{ hotel.phone_no}}</ion-col>
+  
+            <ion-col><ion-icon name="mail" style="font-size:20px;color: #3d3d3d;background:#73AD21;"></ion-icon> {{ hotel.email}}
+            
+            </ion-col>
+            
+         </ion-row>
+  
+         <ion-row>
+            
+  
+            <ion-col><ion-icon name="pin" style="font-size:20px;color: #3d3d3d;background:#73AD21;"></ion-icon> {{hotel.address}}
+            </ion-col>
+  
+         </ion-row>
+         <div style="text-align: center;">
+         <ion-icon name="happy" style="font-size:20px;color: #3d3d3d;background:#73AD21;"></ion-icon>
+         <a href="http://www.shangri-la.com" style="color: #ffffff;">{{ hotel.site }}</a>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-row padding style="text-align: center;">
+        <ion-col>
+          <ion-icon name="checkmark-circle-outline"></ion-icon>
+          <p>pool</p>
+        </ion-col>
+         <ion-col>
+          <ion-icon name="wifi-outline"></ion-icon>
+          <p>Internet</p>
+        </ion-col>
+         <ion-col>
+          <ion-icon name="cafe-outline"></ion-icon>
+          <p>Breackfast</p>
+        </ion-col>
+         <ion-col>
+          <ion-icon name="body-outline"></ion-icon>
+          <p>spa</p>
+        </ion-col>
+         <ion-col>
+          <ion-icon name="beer"></ion-icon>
+          <p>Bar</p>
+        </ion-col>
+         <ion-col>
+          <ion-icon name="flame-outline"></ion-icon>
+          <p>Hot Tub</p>
+        </ion-col>
+    </ion-row>
+  
+  <p>Centauria Lake Resort is the ideal holiday retreat for a serene getaway. Its gorgeous location with spectacular views of the lake, the amazing food and the warm service will leave you feeling rested and relaxed and ready to face life with enthusiasm.</p>
+  </ion-content>
+
+  
+

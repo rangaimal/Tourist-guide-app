@@ -1,0 +1,64 @@
+page-guide {
+
+    .icon {
+      font-size: 30px;
+       color: #800000;
+    }
+    .toolbar-background{
+        background-color: #800000;
+    }
+    #set{
+        float:right;
+        color: #0080FF;
+        background-color: #ffffff;
+        
+    }
+    #bg{
+        background-color: #ffffff;
+    
+    }
+    #btn1{
+        float:right;
+        
+        background-color: #800000;
+        height: 100%;
+        width: 100%;
+        border-radius: 7px;
+        
+    }
+    
+    /*#btn2{
+        background-color: #800000;
+        border-radius: 16px;
+        
+    }*/
+    
+    #im{
+        width:100%; 
+        vertical-align: bottom;
+        border-radius: 10px;
+    
+        /*text-align: center; */
+    }
+    
+    #im2{
+        height: 70px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    /*.no-scroll .scroll-content{
+         overflow: hidden;
+    
+    }*/
+    .h1{
+        
+        font-size: 30px;
+        font-family: cursive;
+        text-align: center;
+        
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    
+    }
